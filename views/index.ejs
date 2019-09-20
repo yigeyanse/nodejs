@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>我买了一个<%= thing %>,花了<%= total%> 元</h1>
+    <select name="" id="">
+    <%
+        for(let i=0;i<hobby.length;i++){
+    %>
+            <option value="hobby[i].age"><%=hobby[i].name%></option>
+    <%
+        }
+    %>
+    </select>
+</body>
+</html>
